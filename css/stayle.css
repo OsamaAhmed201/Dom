@@ -1,0 +1,31 @@
+.caption{
+    background-color: aliceblue;
+    bottom: 30px;
+    width: 80%;
+    left: 10%;
+}
+#levelBox{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.402);
+    display: none;
+}
+#child_box{
+    height: 70%;
+    width: 40%;
+    background-image: url(../images/Image1.jpeg);
+    background-size: cover;
+    background-position: center center  ;
+}
+#child_box i{
+    font-size: 22px;
+    margin: 10px;
+}
+#close{
+    top: 10px;
+    right: 5px;
+}
